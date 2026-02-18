@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env
+.env.*
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE
+.vscode
+.idea
+
+# Tests (optional)
+tests/
+
+# Local ML artifacts
+app/ml/models/*.pkl
+app/ml/models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+.env.*
